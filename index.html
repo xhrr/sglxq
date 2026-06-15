@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>摄影师</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- ========== Navigation ========== -->
+<nav class="nav" id="nav">
+    <a href="#hero" class="nav__logo"></a>
+    <button class="nav__toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+        <li><a class="nav__link" href="#works">作品</a></li>
+        <li><a class="nav__link" href="#about">关于</a></li>
+        <li><a class="nav__link" href="#footer">联系</a></li>
+    </ul>
+</nav>
+
+<!-- ========== Hero ========== -->
+<section class="hero" id="hero">
+    <div class="hero__bg">
+        <img src="" alt="">
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+        <h1 class="hero__name"></h1>
+        <p class="hero__tagline"></p>
+    </div>
+    <div class="hero__scroll">
+        <span></span>
+        <div class="hero__scroll-line"></div>
+    </div>
+</section>
+
+<!-- ========== Featured Works ========== -->
+<section class="section" id="works">
+    <div class="section__header" id="worksHeader">
+        <p class="section__label">精选作品</p>
+        <h2 class="section__title">用镜头讲述<em>未被言说的故事</em></h2>
+    </div>
+    <div class="works-grid" id="worksGrid"></div>
+</section>
+
+<!-- ========== About ========== -->
+<section class="section" id="about">
+    <div class="section__header" id="aboutHeader">
+        <p class="section__label">关于我</p>
+        <h2 class="section__title">以光为笔，<em>以影为墨</em></h2>
+    </div>
+    <div class="about-grid">
+        <div class="about-image" id="aboutImage">
+            <img src="" alt="摄影师肖像">
+        </div>
+        <div class="about-content" id="aboutContent">
+            <h3 class="about-content__name"></h3>
+            <p class="about-content__role"></p>
+            <div class="about-content__bio"></div>
+            <div class="about-content__detail"></div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== Footer ========== -->
+<footer class="footer" id="footer">
+    <div class="footer__inner">
+        <p class="footer__brand"></p>
+        <div class="footer__social"></div>
+        <p class="footer__copy"></p>
+    </div>
+</footer>
+
+<script src="/js/config.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
